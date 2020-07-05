@@ -1,0 +1,60 @@
+/*
+    Name: Angel McCrary-Lupson
+    Date: May 4, 2019
+    Section: CSE 154 AP
+    This is the style.css page for my lyric generation website.
+    It is used by all pages to give the game and site a consistent look and feel.
+*/
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+  width: 80%;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+
+blockquote {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  margin-top: 10px;
+  font-family: "Lato", sans-serif;
+  background-color: #f46060;
+  border: none;
+  color: whitesmoke;
+  font-size: 20pt;
+}
+
+img {
+  display: block;
+  height: 60px;
+  width: 300px;
+}
+
+body, img, #quote {
+  margin: auto;
+}
+
+button, #quote {
+  margin-bottom: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+#tracking {
+  height: 1px;
+  width: 1px;
+  margin-top: 100px;
+}
+
+#quote {
+  border: 5px black solid;
+  border-radius: 10%;
+  box-shadow: 10px 5px 5px grey;
+  width: 30%;
+}

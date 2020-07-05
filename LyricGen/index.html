@@ -1,0 +1,52 @@
+<!--
+     Name: Angel McCrary-Lupson
+     Date: May 4, 2019
+     Section: CSE 154 AP
+     This is the index.html page for my lyric generator website. It uses lyrics and features
+     provided by musixmatch. Cited further down below.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Random Lyric Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Lyric Generator</h1>
+    </header>
+    <main>
+      <h2>Generate lyrics from your favorite artists!</h2>
+        <div>
+          <input type="text" id="artist-query">
+        </div>
+        <div>
+          <button>Generate</button>
+        </div>
+      <p id="error"><p>
+      <div id="quote" class="hidden">
+        <blockquote class="hidden">
+          <p id="lyric"></p>
+          <p id="song-name"></p>
+          <p id="artist-name"></p>
+        </blockquote>
+      </div>
+      <p>*Might not always generate lyrics from the correct artist*</p>
+    </main>
+
+    <footer>
+      <!-- The songs and their copyright belong to their corresponding artists and
+      the lyrics are subject to musixmatch's ownership and are permitting their non commercial
+      use for this website -->
+      <a href="https://www.musixmatch.com/">
+        <img src="musixmatch-logo.png" alt="Powered by Musixmatch">
+      </a>
+      <cite>lyrics powered by musixmatch</cite>
+      <img id="tracking" src="http://tracking.musixmatch.com/t1.0/AMa6hJCIEzn1v8RuXW"
+        alt="tracking pixel">
+    </footer>
+  </body>
+</html>
