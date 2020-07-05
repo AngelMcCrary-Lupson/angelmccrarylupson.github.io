@@ -1,7 +1,4 @@
 /**
- * Name: Angel McCrary-Lupson
- * Date: May 4, 2019
- * Section: CSE 154 AP
  * This is the JS to implement a lyric generator based off a user's input artist name.
  * This is script also uses musixmatch's API methods through a redirct route from CSE154's
  * webservice.
